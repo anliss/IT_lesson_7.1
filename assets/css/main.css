@@ -1,0 +1,136 @@
+@import "reset.css";
+
+html {
+  font-family: Tahoma;
+}
+
+body {
+   background-image:url('../img/bg.png');
+   background-size: 100%;
+   position: relative;
+}
+
+header {
+  display: inline-block;
+  height: 36px;
+  width: 100%;
+  background-image: url('../img/menu.jpg');
+}
+
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+ul> li {
+    float: left;
+  }
+  ul > li:hover {
+    background: #4eabda;
+  }
+
+ul > li > a {
+    display: inline-block;
+    width: 122px;
+    text-align: center;
+    line-height: 36px;
+    color: #60b5ed;
+    text-decoration: none;
+  }
+ul > li > a:hover {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+  .grad {
+    display: inline-block;
+    width: 189px;
+    height: 35px;
+    color: #ffffff;
+  }
+
+  .container {
+    margin: auto;
+    width: 560px;
+    padding-top: 213px;
+    text-align: center;
+  }
+
+.title {
+  height: 62px;
+  background-color: rgba(0, 0, 0, 0.63);
+  font-size: 22px;
+  color: #ffffff;
+  line-height: 62px;
+}
+fieldset {
+  margin-top: 2px;
+  height: 550px;
+  background-color: rgba(0, 0, 0, 0.63);
+  color: #cccccc;
+}
+
+.forma{
+  width: 276px;
+  margin: auto;
+  padding-top: 36px;
+}
+
+.forma > legend {
+  color: #999999;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.forma > input {
+  width: 276px;
+  height: 35px;
+  margin-bottom: 16px;
+  background: linear-gradient(to bottom, #111111 0%,#0e0d0d 100%);
+  box-shadow: inset 0 -1px 0 #4b4b4b;
+  border: none;
+  color: #fffbfb;
+}
+
+.forma > input:focus {
+  background-color: #1b5288;
+}
+
+input::placeholder {
+    padding-left: 18px;
+    color: #cccccc;
+}
+
+.box {
+  width: 284px;
+  margin: auto;
+  font-size: 13px;
+  text-align: left;
+}
+
+button {
+  width: 149px;
+  height: 35px;
+  color: #ffffff;
+  margin-top: 22px;
+  margin-bottom: 15px;
+  background: linear-gradient(to bottom, rgba(140,224,255,0.3) 0%,rgba(255,255,255,0.3) 8%,rgba(0,0,0,0.3) 100%);
+  background-color: #4299d2;
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: #65A8E4;
+}
+
+p {
+  font-size: 11px;
+  line-height: 14px;
+}
