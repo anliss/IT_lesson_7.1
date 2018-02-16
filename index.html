@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lesson 7.1</title>
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/vendor/css/fontawesome-all.css">
 </head>
 <body>
   <header>
@@ -15,27 +16,27 @@
       <li><a href="#">Forum</a></li>
       <li><a href="#">Contato</a></li>
       <li><a href="#">Ajuda</a></li>
-      <li><a href="#"><img src="assets/img/flag.png" alt="flag">Minhas Ofertas</a></li>
-    <div class="grad"><li>Ola! <a href="#">Entrar</a> ou <a href="#">Cadastre-se</a></li></div>
+      <a href="#"><i class="fas fa-flag fa-lg"></i>     Minhas Ofertas</a>
     </ul>
+  <div class="grad">Ola! <a href="#">Entrar</a> ou <a href="#">Cadastre-se</a></div>
   </header>
   <form class="container" action="index.html" method="post">
     <div class="title">Cadastre-se</div>
-    <fieldset>
-      <div class="forma">
+      <div class="form">
         <a href="https://www.facebook.com/"><img src="assets/img/fb1.png" alt="facebook"></a><a href="https://www.facebook.com/login/"><img src="assets/img/fb2.png" alt="login facebook"></a>
-        <legend> OU</legend>
-        <input type="text" name="First name" value="" placeholder="First name">
-        <input type="text" name="Last name" value="" placeholder="Last name">
-        <input type="email" name="Email Address" value="" placeholder="Email Address">
-        <input type="password" name="Choose Password" value="" placeholder="Choose Password">
-        <input type="password" name="Password Confirm" value="" placeholder="Password Confirm">
+        <fieldset>
+		<legend align="center"> OU </legend>
+	        <input type="text" name="First name" value="" placeholder="First name">
+	        <input type="text" name="Last name" value="" placeholder="Last name">
+	        <input type="email" name="Email Address" value="" placeholder="Email Address">
+	        <input type="password" name="Choose Password" value="" placeholder="Choose Password">
+	        <input type="password" name="Password Confirm" value="" placeholder="Password Confirm">
+ 		<div class="form-group"><input type="checkbox" id="sendme" value=""> <label for="sendme">Send me YouBike updates and tips</label></div>
+        	<button type="submit" name="button">Create my Account</button>
+	</fieldset>
       </div>
-        <div class="box"><input type="checkbox" id="sendme" value=""> <label for="sendme">Send me YouBike updates and tips</label></div>
-        <button type="button" name="button">Create my Account</button>
       <p>By clicking the button above, you agree tothe Terms of Service</p>
       <p>Xiew our Privacy Policy.</p>
-    </fieldset>
   </form>
 </body>
 </html>
